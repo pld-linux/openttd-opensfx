@@ -7,7 +7,7 @@ License:	GPL v2+
 Group:		Applications/Games
 Source0:	http://bundles.openttdcoop.org/opensfx/releases/opensfx-%{version}-source.tar.gz
 # Source0-md5:	220642e895c5e490db90c01e33336f53
-URL:		http://bundles.openttdcoop.org/opensfx/
+URL:		http://wiki.openttd.org/OpenSFX
 BuildRequires:	catcodec
 BuildRequires:	sed >= 4.0
 Requires:	openttd-data
