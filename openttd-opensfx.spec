@@ -44,4 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc docs/{changelog.txt,readme.txt}
-%{_datadir}/openttd/data/opensfx-0.2.3.tar
+%{_datadir}/openttd/data/opensfx-%{version}.tar
