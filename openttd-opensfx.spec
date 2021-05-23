@@ -2,7 +2,7 @@ Summary:	Free replacement of the base sounds for OpenTTD
 Summary(pl.UTF-8):	Darmowy zastępnik podstawowych dźwięków dla OpenTTD
 Name:		openttd-opensfx
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/Games
 Source0:	https://cdn.openttd.org/opensfx-releases/%{version}/opensfx-%{version}-source.tar.xz
@@ -35,7 +35,7 @@ TTD, chronionych prawami autorskimi.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	INSTALL_DIR="$RPM_BUILD_ROOT%{_datadir}/openttd/data" \
+	INSTALL_DIR="$RPM_BUILD_ROOT%{_datadir}/openttd/baseset" \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
@@ -44,4 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc docs/{changelog.txt,readme.txt}
-%{_datadir}/openttd/data/opensfx-%{version}.tar
+%{_datadir}/openttd/baseset/opensfx-%{version}.tar
