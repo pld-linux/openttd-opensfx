@@ -1,12 +1,12 @@
 Summary:	Free replacement of the base sounds for OpenTTD
 Summary(pl.UTF-8):	Darmowy zastępnik podstawowych dźwięków dla OpenTTD
 Name:		openttd-opensfx
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	GPL v2+
 Group:		Applications/Games
 Source0:	https://cdn.openttd.org/opensfx-releases/%{version}/opensfx-%{version}-source.tar.xz
-# Source0-md5:	6705891e44157e95ca8f56b4a6fd57d0
+# Source0-md5:	f0f58ef6e377acb81a6a07756179d289
 URL:		http://wiki.openttd.org/OpenSFX
 BuildRequires:	catcodec
 BuildRequires:	sed >= 4.0
